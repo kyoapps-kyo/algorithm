@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.maxNumber = void 0;
 const maxNumber = (arr) => {
     if (arr.length == 2)
         return arr[0] > arr[1] ? arr[0] : arr[1];
@@ -11,6 +13,7 @@ const maxNumber = (arr) => {
         return maxNumber(arr);
     }
 };
+exports.maxNumber = maxNumber;
 let array = [1, 2, 9, 1, 6, 2];
 console.log(array);
 console.log(maxNumber(array));

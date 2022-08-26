@@ -15,3 +15,5 @@ let array: Array<number> = [1, 2, 9, 1, 6, 2];
 console.log(array);
 console.log(maxNumber(array));
 console.log(array);
+
+export { maxNumber };

@@ -9,3 +9,5 @@ const sum = (arr: Array<number>): number => {
 };
 
 console.log(sum([1, 2, 3, 4, 5]));
+
+export { sum };

@@ -10,3 +10,5 @@ let arr: Array<number> = [1, 2, 3, 4, 5, 6, 3, 21, 41, 23, 1, 24, 12, 312, 3];
 console.log(arr.length);
 
 console.log(count(arr));
+
+export { count };
